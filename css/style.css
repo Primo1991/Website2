@@ -25,6 +25,14 @@ ul {
   color: #fff;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Header */
 
 header {
@@ -46,10 +54,10 @@ header li {
   display: inline;
   padding: 0 20px 0 20px;
 }
-
 header #branding {
   float: left;
 }
+
 
 header #branding h1 {
   margin: 0;
@@ -132,4 +140,33 @@ footer {
   color: #fff;
   background-color: #e8491d;
   text-align: center;
+}
+
+/* Sidebar */
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* main-col */
+
+article#main-col {
+  float: left;
+  width:65%;
+}
+
+/*Service */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
